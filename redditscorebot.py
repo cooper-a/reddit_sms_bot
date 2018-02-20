@@ -11,7 +11,7 @@ def main():
                 password = config.password,
                 client_id = config.client_id,
                 client_secret = config.client_secret,
-                user_agent = "Upvotetextbot v0.1 by /u/zoopybot")
+                user_agent = "Upvotetextbot v0.1")
     cache = []
     def sms_at_score_threshold(subreddit, score):
         #subreddit is taken in as string and score as int
